@@ -9,7 +9,7 @@ Summary:	UNIVERSAL::require - require() modules from a variable
 Summary(pl):	UNIVERSAL::require - wymaganie modu³ów ze zmiennej
 Name:		perl-UNIVERSAL-require
 Version:	0.10
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -17,33 +17,33 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	4ea51136ee7052bb37dc52c7cb8945b0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Conflicts:	perl-UNIVERSAL-exports <= 0.03
+Conflicts:	perl-UNIVERSAL-exports < 0.03-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 If you've ever had to do this...
 
-    eval "require $module";
+eval "require $module";
 
 to get around the bareword caveats on require(), this module is for
-you. It creates a universal require() class method that will work
-with every Perl module and it's secure. So instead of doing some
-arcane eval() work, you can do this:
-    
-    $module->require;
+you. It creates a universal require() class method that will work with
+every Perl module and it's secure. So instead of doing some arcane
+eval() work, you can do this:
+
+$module->require;
 
 %description -l pl
 Je¶li kiedykolwiek by³o nam potrzebne...
 
-    eval "require $module";
+eval "require $module";
 
 do obej¶cia przeciwno¶ci require(), ten modu³ jest dla nas. Tworzy
 uniwersaln± metodê klasy require() dzia³aj±c± z ka¿dym modu³em Perla,
 a jednocze¶nie bezpieczn±. Czyli zamiast wykonywania jakich¶ tajemnych
 dzia³añ z eval(), mo¿na zrobiæ:
 
-    $module->require;
+$module->require;
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
