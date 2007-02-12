@@ -6,7 +6,7 @@
 %define	pdir	UNIVERSAL
 %define	pnam	require
 Summary:	UNIVERSAL::require - require() modules from a variable
-Summary(pl.UTF-8):   UNIVERSAL::require - wymaganie modułów ze zmiennej
+Summary(pl.UTF-8):	UNIVERSAL::require - wymaganie modułów ze zmiennej
 Name:		perl-UNIVERSAL-require
 Version:	0.10
 Release:	2
