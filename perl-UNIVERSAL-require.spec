@@ -6,7 +6,7 @@
 %define	pdir	UNIVERSAL
 %define	pnam	require
 Summary:	UNIVERSAL::require - require() modules from a variable
-Summary(pl):	UNIVERSAL::require - wymaganie modu³ów ze zmiennej
+Summary(pl.UTF-8):   UNIVERSAL::require - wymaganie moduÅ‚Ã³w ze zmiennej
 Name:		perl-UNIVERSAL-require
 Version:	0.10
 Release:	2
@@ -33,15 +33,15 @@ eval() work, you can do this:
 
 $module->require;
 
-%description -l pl
-Je¶li kiedykolwiek by³o nam potrzebne...
+%description -l pl.UTF-8
+JeÅ›li kiedykolwiek byÅ‚o nam potrzebne...
 
 eval "require $module";
 
-do obej¶cia przeciwno¶ci require(), ten modu³ jest dla nas. Tworzy
-uniwersaln± metodê klasy require() dzia³aj±c± z ka¿dym modu³em Perla,
-a jednocze¶nie bezpieczn±. Czyli zamiast wykonywania jakich¶ tajemnych
-dzia³añ z eval(), mo¿na zrobiæ:
+do obejÅ›cia przeciwnoÅ›ci require(), ten moduÅ‚ jest dla nas. Tworzy
+uniwersalnÄ… metodÄ™ klasy require() dziaÅ‚ajÄ…cÄ… z kaÅ¼dym moduÅ‚em Perla,
+a jednoczeÅ›nie bezpiecznÄ…. Czyli zamiast wykonywania jakichÅ› tajemnych
+dziaÅ‚aÅ„ z eval(), moÅ¼na zrobiÄ‡:
 
 $module->require;
 
