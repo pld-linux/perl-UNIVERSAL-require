@@ -8,13 +8,13 @@
 Summary:	UNIVERSAL::require - require() modules from a variable
 Summary(pl.UTF-8):	UNIVERSAL::require - wymaganie modułów ze zmiennej
 Name:		perl-UNIVERSAL-require
-Version:	0.15
+Version:	0.18
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	17c605c17f9135a5e3e5fc542d9a3363
+# Source0-md5:	2cdfd54bc7e270c77456a8e929a091b3
 URL:		http://search.cpan.org/dist/UNIVERSAL-require/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
