@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	UNIVERSAL
 %define	pnam	require
 Summary:	UNIVERSAL::require - require() modules from a variable
